@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giuseppe Calabrò - Portfolio</title>
+    <!-- Swiper JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./media/img/gcLogo.jpg" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Animate on Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <!-- Hamburger -->
+    <button class="containerBurg">
+        <i id="burger" class="fa-solid fa-bars fa-2x"></i>
+    </button>
+    <!-- Hamburger END -->
+
+    <!-- SideBar/Home -->
+    <!-- SideBar -->
+    <section class="container-fluid">
+        <div class="row vh-100">
+            <div id="sidebar" class="col-12 col-md-2 bg-side">
+                <div class="logo">
+                    <a href="">
+                        <p class="display-4">Arcoder</p>
+                    </a>
+                </div>
+                <div>
+                    <ul class="menu">
+                        <li>
+                            <a id="link1" href="#" class="active">
+                                <i id="icon1" class="fa-solid fa-house me-3 active"></i>Home
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link2" href="#about">
+                                <i id="icon2" class="fa-solid fa-user me-3"></i>About
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link3" href="#services">
+                                <i id="icon3" class="fa-solid fa-list me-3"></i>Servizi
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link4" href="#portfolio">
+                                <i id="icon4" class="fa-solid fa-briefcase me-3"></i>Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a id="link5" href="#contatti">
+                                <i id="icon5" class="fa-solid fa-comments me-3"></i>Contatti
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <footer>
+                    <div class="d-flex justify-content-around">
+                        <a href="https://www.instagram.com/giuseppe.webdev" target="_black"><i
+                                class="fa-brands fa-instagram fa-2x"></i></a>
+                        <a href="https://www.facebook.com/giuseppe8798/" target="_blank"><i
+                                class="fa-brands fa-facebook fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/giuseppe-calabro-web-developer/" target="_blank"><i
+                                class="fa-brands fa-linkedin fa-2x"></i></a>
+                    </div>
+                    <p class="disclaimer">Sito sempre sotto aggiornamenti...</p>
+                </footer>
+            </div>
+            <!-- SideBar END -->
+
+            <!-- Home -->
+            <div class="col-12 col-md-6 marginforFixed">
+                <header class="homePage">
+                    <p id="obsHome" class="display-5 fw-bold my-3">Ciao, mi chiamo <span
+                            class="display-4 ffD text-b fw-bold my-3">Giuseppe Calabrò</span></p>
+                    <p class="display-5 fw-bold">Sono un <span class="display-5 text-b fw-bold typing"></span></p>
+                    <p class="lead"> SVILUPPATORE WEB FULL STACK. Ho appreso competenze tecniche in ambito Front-End e
+                        Back-End grazie ad un coding bootcamp presso Aulab. Ho una grande passione per l'informatica e
+                        per l'APPRENDIMENTO COSTANTE di nuove tecnologie nell'ambito dello SVILUPPO WEB...</p>
+                    <a href="#about" class="btn btn-custom moreAbout">
+                        More About Me!
+                    </a>
+                </header>
+            </div>
+            <div class="d-none d-md-flex col-12 col-md-3 d-flex justify-content-center align-items-center cornice">
+                <img src="./media/img/prova2.png" alt="immagine Giuseppe Calabrò" class="img">
+            </div>
+        </div>
+    </section>
+    <!-- Home END -->
+    <!-- About -->
+    <section id="about" class="container-fluid">
+        <div class="row vh-100 marginforFixed pe-3" data-aos="fade-left" data-aos-duration="2500">
+            <div class="col-12">
+                <h2 class="mt-5 display-4 about">About me</h2>
+                <div class="line1"></div>
+                <p class="mt-5 titleAbout">Sono Giuseppe Calabrò, sono <span class="text-b display-4 fw-bold">Web
+                        Developer</span></p>
+                <p class="lead">Sono uno SVILUPPATORE WEB FULL STACK. Ho appreso competenze tecniche in ambito Front-End
+                    e Back-End grazie ad un coding bootcamp presso Aulab. Con questa esperienza Ho maturato capacità
+                    come il TEAM WORK, il PROBLEM SOLVING per trovare soluzioni agli errori, una CAPACITA' DI
+                    ADATTAMENTO, PIANIFICAZIONE DELLA GIORNATA E DEL LAVORO e metodi di lavoro come le metodologie AGILE
+                    e SCRUM. Ho una grande passione per l'informatica e per l'APPRENDIMENTO COSTANTE di nuove tecnologie
+                    nell'ambito dello SVILUPPO WEB.</p>
+            </div>
+            <!-- INFO -->
+            <div class="col-12 col-md-3 align-items-center">
+                <p class="aboutLine">Data di Nascita :
+                    <time class="fw-normal"> 08 Luglio 1998</time>
+                </p>
+                <!-- <p class="aboutLine">Website : 
+                    <span class="fw-normal"> www.domain.com</span>
+                </p>  -->
+                <p class="aboutLine">Provincia :
+                    <span class="fw-normal"> Cosenza</span>
+                </p>
+                <p class="aboutLine">Città :
+                    <span class="fw-normal"> Corigliano-Rossano</span>
+                </p>
+            </div>
+            <div class="col-12 col-md-3 align-items-center my-3 my-md-0 mx-md-3">
+                <!-- <p class="aboutLine">Age : 
+                    <time class="fw-normal"> 24</time>
+                </p>  -->
+                <p class="aboutLine">Email :
+                    <span class="fw-normal"> calabro.giuseppe98@gmail.com</span>
+                </p>
+                <p class="aboutLine">Telefono :
+                    <span class="fw-normal"> +39 3664308354</span>
+                </p>
+                <p class="aboutLine">Freelance :
+                    <span class="fw-normal"><i class="fa-regular fa-clock text-warning"></i> Non al momento</span>
+                </p>
+
+                <a href="/media/cvGiuseppeCalabròIT.pdf" download="cvGiuseppeCalabrò">
+                    <button id="obsAbout" class="btn btn-customDownload">Download CV</button>
+                </a>
+            </div>
+            <!-- INFO END -->
+            <!-- Linguaggi -->
+            <div class="col-12 col-md-5 ms-md-5 align-items-center">
+                <div class="d-flex justify-content-between">
+                    <p class="fw-bold">HTML</p>
+                    <p class="fw-bold prgHTML">0%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-barHTML" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <p class="fw-bold">CSS - Front-End</p>
+                    <p class="fw-bold prgCSS">0%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-barCSS" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <p class="fw-bold">TailWind CSS</p>
+                    <p class="fw-bold prgTW">0%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-barTW" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <p class="fw-bold">JavaScript - Front-End</p>
+                    <p class="fw-bold prgJS">0%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-barJS" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <p class="fw-bold">PHP</p>
+                    <p class="fw-bold prgPHP">0%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-barPHP" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <p class="fw-bold">FrameWork Back- End: Laravel</p>
+                    <p class="fw-bold prgLaravel">0%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-barLaravel" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <!-- Linguaggi END -->
+
+        </div>
+    </section>
+    <!-- About END -->
+
+
+    <!-- Services -->
+    <section id="services" class="container-fluid">
+        <div class="row align-items-center marginforFixed pe-md-3" data-aos="fade-left" data-aos-duration="2500">
+            <div class="col-12 mt-5">
+                <h2 class=" mt-5 display-4 about">Servizi</h2>
+                <div class="line1"></div>
+            </div>
+
+            <div id="obsServices"
+                class="col-12 justify-content-center mt-5 mt-md-0 d-flex flex-wrap align-items-center vhServices ps-3 ">
+                <!-- Servizi appesi -->
+            </div>
+        </div>
+    </section>
+    <!-- Services END -->
+    <!-- Portfolio -->
+    <section id="portfolio" class="container-fluid">
+        <div class="row marginforFixed" data-aos="fade-left" data-aos-duration="2500">
+            <div class="col-12 mt-5">
+                <h2 class=" mt-5 display-4 about">Portfolio</h2>
+                <div class="line1"></div>
+            </div>
+            <div class="col-12 mt-5">
+                <h3 class="fw-bold">I miei ultimi progetti</h3>
+            </div>
+            <!-- video1 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <video id="obsPortfolio" controlsList="nodownload" muted src="./media/video/Progetto Black DESKTOP.mkv"
+                    class="video" data-bs-toggle="modal" data-bs-target="#video1"></video>
+            </div>
+            <!-- video2 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <video controlsList="nodownload" muted src="./media/video/Progetto White DESKTOP.mkv" class="video"
+                    data-bs-toggle="modal" data-bs-target="#video2"></video>
+            </div>
+            <!-- video3 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <video controlsList="nodownload" muted src="./media/video/Progetto Blue DESKTOP.mkv" class="video"
+                    data-bs-toggle="modal" data-bs-target="#video3"></video>
+            </div>
+            <!-- video4 -->
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+                <video controlsList="nodownload" muted src="./media/video/Progetto Red DESKTOP.mkv" class="video"
+                    data-bs-toggle="modal" data-bs-target="#video4"></video>
+            </div>
+        </div>
+
+        <!-- altri progetti -->
+        <div class="row marginforFixed my-5">
+            <div class="col-12">
+                <h3 class="fw-bold">Altri progetti e versioni mobile...</h3>
+            </div>
+            <div class="swiper my-1 my-md-5">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img class="img-fluid" src="./media/gif/tech.gif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img style="height: 95%" src="./media/gif/videogameMobile.gif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="img-fluid" src="./media/gif/videogameDesktop.gif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img style="height: 95%" src="./media/gif/techMobile.gif" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img style="height: 95%" src="./media/gif/projectBlueMobile.gif" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+    </section>
+    <!-- Portfolio END -->
+
+    <!-- Contatti -->
+    <section class="container-fluid">
+        <div class="row marginforFixed my-5 justify-content-center" data-aos="fade-left" data-aos-duration="2500">
+            <div class="col-12 mt-5">
+                <h2 id="contatti" class=" mt-5 display-4 about">Contattami</h2>
+                <div class="line1"></div>
+            </div>
+            <div class="co-12 mt-5">
+                <h2 class="text-center text-b display-5 fw-bold">Hai Delle Domande?</h2>
+                <h5 class="text-center my-3">SONO AL TUO SERVIZIO</h5>
+            </div>
+            <div class="col-6 col-md-3 text-center my-5">
+                <i class="fa-solid fa-phone-flip fa-2x mb-3 text-b"></i>
+                <h5 class="fw-bold">Chiamami</h5>
+                <p>+39 3664308354</p>
+            </div>
+            <div class="col-6 col-md-3 text-center my-5">
+                <i class="fa-brands fa-linkedin fa-2x mb-3 text-b"></i>
+                <h5 class="fw-bold">Linkedin</h5>
+                <a class="text-white text-decoration-none" href="https://www.linkedin.com/in/giuseppe-calabro-web-dev/">Vai al mio profilo</a>
+            </div>
+            
+            <div class="col-6 col-md-3 text-center my-5">
+                <i class="fa-solid fa-envelope fa-2x mb-3 text-b"></i>
+                <h5 class="fw-bold">Mail</h5>
+                <p>calabro.giuseppe98<br class="none">@gmail.com</p>
+            </div>
+            <div class="col-6 col-md-3 text-center my-5">
+                <i class="fa-solid fa-location-dot fa-2x mb-3 text-b"></i>
+                <h5 class="fw-bold">Ufficio</h5>
+                <address>Rossano</address>
+            </div>
+            <div class="col-12 mt-5 mb-2">
+                <h2 class="text-b text-center fw-bold">MANDAMI UN'EMAIL</h2>
+            </div>
+            <p class="text-center fw-bold mb-5">RISPONDERO' IL PRIMA POSSIBILE</p>
+            <p class="h1 text-center text-danger bg-dark">ATTENZIONE QUESTA SEZIONE AL MOMENTO NON E' FUNZIONANTE CAUSA HOSTING GITHUB</p>
+        </div>
+        <form action="" method="POST">
+            <!-- @csrf -->
+            <div class="container-fluid">
+                <div class="row marginforFixed" data-aos="fade-left" data-aos-duration="2500">
+                    <div class="col-12 col-md-6">
+                        <input id="obsContatti" class="mb-3 mb-md-0 " type="text" placeholder="Nome" name="nome">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div class="col-12">
+                        <input class="my-3" type="text" placeholder="Oggetto" name="oggetto">
+                    </div>
+                    <div class="col-12">
+                        <textarea placeholder="Messaggio" name="messaggio"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button disabled class="btn btn-sendMessage mb-5" type="submit">Invia messaggio <br> <span class="text-danger fw-bold">~DISABILITATO~</span></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- Contatti END -->
+
+
+
+
+
+
+    <!-- MODALI -->
+    <div>
+
+        <!-- video1 -->
+        <div class="modal fade " id="video1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header bd-d">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <video controlsList="nodownload" controls autoplay muted
+                            src="./media/video/Progetto Black DESKTOP.mkv" class="modalVideo"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- video2 -->
+        <div class="modal fade " id="video2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header bd-d">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <video controlsList="nodownload" controls autoplay muted
+                            src="./media/video/Progetto White DESKTOP.mkv" class="modalVideo"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video3 -->
+        <div class="modal fade " id="video3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header bd-d">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <video controlsList="nodownload" controls autoplay muted
+                            src="./media/video/Progetto Blue DESKTOP.mkv" class="modalVideo"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video4 -->
+        <div class="modal fade " id="video4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header bd-d">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <video controlsList="nodownload" controls autoplay muted
+                            src="./media/video/Progetto Red DESKTOP.mkv" class="modalVideo"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6c9b292d6e.js" crossorigin="anonymous"></script>
+    <!-- Animate On Scroll JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Bootstrap Css -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- script effetto parole scritte -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <!-- inizializzazione script Animate On Scroll -->
+    <script>AOS.init();</script>
+    <!-- My JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>

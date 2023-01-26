@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "icon": "fa-code",
+        "servizio": "Landing Page",
+        "descrizione": "Creazione di una landing page per ogni occasione!"
+    },
+    {
+        "id":2,
+        "icon":"fa-laptop-code",
+        "servizio":"Web Design",
+        "descrizione":"La bellezza delle tue pagine!" 
+    },
+    {
+        "id":3,
+        "icon":"fa-terminal",
+        "servizio":"Logica Back-End",
+        "descrizione":"Tutta la logica che sta dietro il sito! Gestione dati e database"
+    }
+]
