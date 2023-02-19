@@ -476,6 +476,10 @@ li a:hover{
     background-color: rgb(24, 24, 24);
     border: 2px solid var(--b);
   }
+  .swiper-button-next,
+  .swiper-button-prev{
+    visibility: hidden;
+  }
 
 /* Contacts Page */
 .none{
@@ -628,7 +632,12 @@ textarea:focus-visible{
     }
     /* Contacts Page */
     .none{
-    display:block
-}
+        display:block
+    }
+    /* Swiper navigation */
+    .swiper-button-next,
+    .swiper-button-prev{
+      visibility: visible;
+    }
 }
 

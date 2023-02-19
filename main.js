@@ -402,18 +402,27 @@ btnClose.addEventListener("click",()=>{
 // swiper
 const swiper = new Swiper('.swiper', {
         effect: "coverflow",
-        slidesPerView: "3",
+        slidesPerView: "1",
         grabCursor: true,
-        cubeEffect: {
-          shadow: true,
-          slideShadows: true,
-          shadowScale: 0.94,
+        loop: true,
+        autoplay: {
+            delay: 20000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
         },
-    loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        breakpoints: {
+        720: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+          navigation: {
+            nextEl: "",
+            prevEl: "",
+          },
+        },
+    }
 
-    autoplay: {
-        delay: 20000,
-        pauseOnMouseEnter: true,
-        disableOnInteraction: false,
-      },
   });
